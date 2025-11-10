@@ -78,7 +78,7 @@ elif page == '🤠 About':
                 -  PSAL Athetic improvement
             ''')
 
-  st.subheader('Interests & Hobbies 🏀')
+  st.subheader('Interests & Hobbies ')
   interests = ['Track and firld', 'Fashion ', 'Photography', ' GYM', 'Travel', 'Games']
 
   # Display the interests in columns
@@ -96,11 +96,12 @@ import streamlit as st
 with st.container():
     col1, col2 = st.columns([1, 2])
     with col1:
-        st.image('https://assets.capsolver.com/prod/images/post/2024-05-07/80292cb6-05db-4611-bdcc-f93ce05ba0ae.jpeg')
+        st.image('https://th.bing.com/th/id/OIP.zZP1cJUmeimIlZtdQ_0p9AHaEd?w=270&h=180&c=7&r=0&o=7&cb=ucfimgc2&dpr=1.5&pid=1.7&rm=3')
     with col2:
         st.subheader('🛒 E-Commerce Price Tracker')
         st.write('Python web scraper that monitors Amazon prices and sends alerts')
         st.caption('**Technologies:** Python, BeautifulSoup, Streamlit')
+        
 
 # Project 2
 with st.container():
