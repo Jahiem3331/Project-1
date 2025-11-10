@@ -98,3 +98,27 @@ with st.container():
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+elif page == '🛠 Skills'
+  st.title('My Skills'")
+
+
+
+
+
+
+
