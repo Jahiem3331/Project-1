@@ -66,16 +66,16 @@ elif page == '🤠 About':
 
   with st.expander('2025 - Present: Medgar Evers College'):
     st.write('''
-                - Major: Computer Information Systems
+                - Major: Business
                 - Relevant Coursework: Internet & Emerging Technologies, Programming, Database Systems, AI
-                - Activities: Track Team, Volleyball Team, Hackathon participant
+                - Activities: Track and Field team captain for MEC Track and filed team 
             ''')
 
-  with st.expander('2023 - 2025: NYC Museum School'):
+  with st.expander('2021 - 2023: W.H Maxwell High School'):
     st.write('''
                 - Graduated with honors
-                - AP Computer Science A (Score: 5)
-                - Founded Coding Club
+                -  Award for Apparel Design (Score: 5)
+                -  PSAL Athetic improvement
             ''')
 
   st.subheader('Interests & Hobbies 🏀')
