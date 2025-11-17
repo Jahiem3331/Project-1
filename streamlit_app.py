@@ -98,7 +98,7 @@ with st.container():
    with col1:
          st.image('https://th.bing.com/th/id/OIP.zZP1cJUmeimIlZtdQ_0p9AHaEd?w=270&h=180&c=7&r=0&o=7&cb=ucfimgc2&dpr=1.5&pid=1.7&rm=3')
       
-    with col2:
+   with col2:
         st.subheader('🏢 office of communication')
         st.write(' Help with marketing events,Media platforms,Photograph, Media day')	
         st.caption('**Technologies:** Adobe,GoPro,CapCut,')
