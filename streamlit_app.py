@@ -90,7 +90,8 @@ elif page == '💼 Projects':
     st.Write('Here are some project I have worked on:')
 
 
-   # Project 1
+  
+# Project 1
    with st.container():
      col1, col2 = st.columns([1, 2])
   
