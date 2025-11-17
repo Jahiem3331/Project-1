@@ -4,7 +4,7 @@ from datetime import datetime
 
 # Page Config
 st.set_page_config(
-  page_title ='Avinash Jairam | Portfolio',
+  page_title ='Jahiem Johnson | Portfolio',
   page_icon='🎯',
   layout = 'wide'
 )
@@ -24,18 +24,18 @@ page = st.sidebar.radio('Go to',
 
 # Home Page
 if page == '🏠 Home':
-  st.markdown('<p class="main-header">Avinash Jairam</p>', unsafe_allow_html=True)
-  st.markdown('<p class="sub-header">Aspiring Tech Professional | Medgar Evers College</p>', unsafe_allow_html=True)
+  st.markdown('<p class="main-header">Jahiem Johnson</p>', unsafe_allow_html=True)
+  st.markdown('<p class="sub-header">Aspiring In Business | Medgar Evers College</p>', unsafe_allow_html=True)
 
   # Three Columns for stats
   col1, col2, col3 = st.columns(3)
 
   with col1:
-      st.metric('GPA', '3.8', '📚')
+      st.metric('GPA', '3.1', '📚')
   with col2:
       st.metric('Projects', '5', '💻')
   with col3:
-      st.metric('Skills', '10+', '🚀')
+      st.metric('Skills', '9+', '🚀')
 
   st.write('---')
 
