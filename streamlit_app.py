@@ -44,10 +44,11 @@ if page == '🏠 Home':
   with col1:
     st.subheader('Welcome to my  Futuer Plan !👌')
     st.write('''
-                I’m a student athlete at Medgar Evers College (CUNY), majoring in business with a concentration in marketing.
+                I’m a student athlete at Medgar Evers College (CUNY), 
+                majoring in business with a concentration in marketing.
             
-                🎯 **Current Focus:** Marking,Trading,Communication am in to right now                            Building interactive web applications with Streamlit
-            
+                🎯 **Current Focus:** Marking,Trading,Communication am in to right now.
+           
                 📚 **Currently Learning:**  Marketing Principles, Advanced, Career Planning, •	Business Law.
             
                 🌱 **Fun Fact:** I can skate really well ! 
@@ -85,12 +86,11 @@ elif page == '🤠 About':
   for i, interest in enumerate(interests):
     with cols[i % 3]:
       st.info(f'🔷 {interest}')
+      
 elif page == '💼 Projects':
     st.title ('MY Projects')
     st.Write('Here are some project I have worked on:')
 
-
-  
 # Project 1
    with st.container():
      col1, col2 = st.columns([1, 2])
