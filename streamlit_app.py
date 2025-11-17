@@ -44,12 +44,11 @@ if page == '🏠 Home':
   with col1:
     st.subheader('Welcome to my digital space!👋')
     st.write('''
-                I am a Computer Information Systems student passionate about web development and emerging technologies. Currently learning
-                HTML, CSS, JavaScript, and Python to build innovative solutions.
+                I’m a student athlete at Medgar Evers College (CUNY), majoring in business with a concentration in marketing.
             
-                🎯 **Current Focus:** Building interactive web applications with Streamlit
+                🎯 **Current Focus:** Marking,Trading,Communication am in to right now                            Building interactive web applications with Streamlit
             
-                📚 **Currently Learning:** Internet and Emergin Technologies (CIS 211)
+                📚 **Currently Learning:**  Marketing Principles, Advanced, Career Planning, •	Business Law.
             
                 🌱 **Fun Fact:** I can skate really well ! 
             ''')
@@ -67,7 +66,7 @@ elif page == '🤠 About':
   with st.expander('2025 - Present: Medgar Evers College'):
     st.write('''
                 - Major: Business
-                - Relevant Coursework: Internet & Emerging Technologies, Programming, Database Systems, AI
+                - Relevant Coursework:   •	Business Law, Internet & Emerging Technologies,Financial Accounting, Computer 101,
                 - Activities: Track and Field team captain for MEC Track and filed team 
             ''')
 
@@ -78,8 +77,8 @@ elif page == '🤠 About':
                 -  PSAL Athetic improvement
             ''')
 
-  st.subheader('Interests & Hobbies ')
-  interests = ['Track and firld', 'Fashion ', 'Photography', ' GYM', 'Travel', 'Games']
+  st.subheader('Interests & Hobbies 🏃🏿‍♂️‍➡️')
+  interests = ['Track and firld', 'Fashion ', 'Photography', ' Trading', ' GYM', 'Travel', 'Games']
 
   # Display the interests in columns
   cols = st.columns(3)
