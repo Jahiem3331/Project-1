@@ -42,7 +42,7 @@ if page == '🏠 Home':
   # Introduction with columns
   col1, col2 = st.columns([2,1])
   with col1:
-    st.subheader('Welcome to my digital space!👋')
+    st.subheader('Welcome to my  Futuer Plan !👌')
     st.write('''
                 I’m a student athlete at Medgar Evers College (CUNY), majoring in business with a concentration in marketing.
             
@@ -99,15 +99,14 @@ with st.container():
     with col2:
         st.subheader('🏢 office of communication')
         st.write(' Help with marketing events,Media platforms,Photograph')	
-        st.caption('**Technologies:** Python, BeautifulSoup, Streamlit')
+        st.caption('**Technologies:** Adobe,GoPro,CapCut,')
         
 
 # Project 2
 with st.container():
     col1, col2 = st.columns([1, 2])
     with col1:
-        st.image('https://i.pinimg.com/736x/95/75/91/957591296622900be1b004289d040dae.jpg')
-    with col2:
+        st.image('https://www.archmorebusinessweb.com/wp-content/uploads/content-archmore.jpg')  
         st.subheader('📊 Student Grade Calculator')
         st.write('Interactive web app for calculating and visualizing grades')
         st.caption('**Technologies:** Python, Pandas, Plotly')
