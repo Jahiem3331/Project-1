@@ -107,9 +107,9 @@ with st.container():
     col1, col2 = st.columns([1, 2])
     with col1:
         st.image('https://www.archmorebusinessweb.com/wp-content/uploads/content-archmore.jpg')  
-        st.subheader('📊 Student Grade Calculator')
-        st.write('Interactive web app for calculating and visualizing grades')
-        st.caption('**Technologies:** Python, Pandas, Plotly')
+        st.subheader('📱 Content Producer ')
+        st.write(' Marketing content produce on the college websites')
+        st.caption('**Technologies:** Adobe,GoPro,CapCut, Instagram accoun, Tiktok,Facebook')
 
 
 
