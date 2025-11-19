@@ -42,7 +42,7 @@ if page == '🏠 Home':
   # Introduction with columns
   col1, col2 = st.columns([2,1])
   with col1:
-    st.subheader('Welcome to my  Futuer Plan !👌')
+    st.subheader('Welcome to my  Future Plan !👌')
     st.write('''
                 I’m a student athlete at Medgar Evers College (CUNY), 
                 majoring in business with a concentration in marketing.
