@@ -91,124 +91,124 @@ elif page == '💼 Projects':
     st.title ('MY Projects')
     st.Write('Here are some project I have worked on:')
 
-# Project 1
-with st.container():
-   col1, col2 = st.columns([1, 2])
-  
-   with col1:
-         st.image('https://th.bing.com/th/id/OIP.zZP1cJUmeimIlZtdQ_0p9AHaEd?w=270&h=180&c=7&r=0&o=7&cb=ucfimgc2&dpr=1.5&pid=1.7&rm=3')
+    # Project 1
+    with st.container():
+       col1, col2 = st.columns([1, 2])
       
-   with col2:
-        st.subheader('🏢 office of communication')
-        st.write(' Help with marketing events,Media platforms,Photograph, Media day')	
-        st.caption('**Technologies:** Adobe,GoPro,CapCut,')
-        
+       with col1:
+             st.image('https://th.bing.com/th/id/OIP.zZP1cJUmeimIlZtdQ_0p9AHaEd?w=270&h=180&c=7&r=0&o=7&cb=ucfimgc2&dpr=1.5&pid=1.7&rm=3')
+          
+       with col2:
+            st.subheader('🏢 office of communication')
+            st.write(' Help with marketing events,Media platforms,Photograph, Media day')	
+            st.caption('**Technologies:** Adobe,GoPro,CapCut,')
+            
 
-# Project 2
-with st.container():
-    col1, col2 = st.columns([1, 2])
-    with col1:
-        st.image('https://www.archmorebusinessweb.com/wp-content/uploads/content-archmore.jpg') 
-    with col2:
-      st.subheader('📱 Content Producer ')
-      st.write(' Marketing content produce on the college websites')
-      st.caption('**Technologies:** Adobe,GoPro,CapCut, Instagram accoun, Tiktok,Facebook')
+    # Project 2
+    with st.container():
+        col1, col2 = st.columns([1, 2])
+        with col1:
+            st.image('https://www.archmorebusinessweb.com/wp-content/uploads/content-archmore.jpg') 
+        with col2:
+          st.subheader('📱 Content Producer ')
+          st.write(' Marketing content produce on the college websites')
+          st.caption('**Technologies:** Adobe,GoPro,CapCut, Instagram accoun, Tiktok,Facebook')
   
-elif page == '🛠 Skills':
-  st.title('Technical Skills')
+# elif page == '🛠 Skills':
+#   st.title('Technical Skills')
 
-  # Skills with progress bars
-  st.subheader('Programming Languages')
+#   # Skills with progress bars
+#   st.subheader('Programming Languages')
 
-  skills_data = {
-    'Python' : 85,
-    'HTML/CSS' : 70,
-    'JavaScript' : 60,
-    'SQL' : 50,
-    'Technical Writing' : 40
-  }
+#   skills_data = {
+#     'Python' : 85,
+#     'HTML/CSS' : 70,
+#     'JavaScript' : 60,
+#     'SQL' : 50,
+#     'Technical Writing' : 40
+#   }
 
-  for skill, level in skills_data.items():
-    col1, col2 = st.columns([1,3])
-    with col1:
-      st.write(skill)
-    with col2:
-      st.progress(level/100)
+#   for skill, level in skills_data.items():
+#     col1, col2 = st.columns([1,3])
+#     with col1:
+#       st.write(skill)
+#     with col2:
+#       st.progress(level/100)
 
-  st.subheader('Tools & Technologies')
+#   st.subheader('Tools & Technologies')
 
-  col1, col2, col3 = st.columns(3)
-  with col1:
-    st.success('Excel')
-    st.info('Word')
-    st.warning('Access')
+#   col1, col2, col3 = st.columns(3)
+#   with col1:
+#     st.success('Excel')
+#     st.info('Word')
+#     st.warning('Access')
 
-  with col2:
-    st.success('PowerPoint')
-    st.info('Google Docs')
-    st.warning('ChatGPT/AI Tools')
+#   with col2:
+#     st.success('PowerPoint')
+#     st.info('Google Docs')
+#     st.warning('ChatGPT/AI Tools')
     
-  with col3:
-    st.success('Presentations')
-    st.info('Writing')
-    st.warning('Social Media')
+#   with col3:
+#     st.success('Presentations')
+#     st.info('Writing')
+#     st.warning('Social Media')
 
-elif page == '📝 Resume':
-  st.title('Resume')
+# elif page == '📝 Resume':
+#   st.title('Resume')
 
-  # Read PDF from my GitHub repository
-  with open('my_resume.pdf', 'rb') as pdf_file:
-    PDFbyte = pdf_file.read()
+#   # Read PDF from my GitHub repository
+#   with open('my_resume.pdf', 'rb') as pdf_file:
+#     PDFbyte = pdf_file.read()
   
-  st.download_button(
-    label ='🔻 Download Full Resume (PDF)',
-    data = PDFbyte,
-    file_name = 'my_resume.pdf',
-    mime ='application/pdf'
-  )
+#   st.download_button(
+#     label ='🔻 Download Full Resume (PDF)',
+#     data = PDFbyte,
+#     file_name = 'my_resume.pdf',
+#     mime ='application/pdf'
+#   )
 
-elif page == '📩 Contact':
-  st.title("Let's Connect!")
+# elif page == '📩 Contact':
+#   st.title("Let's Connect!")
 
-  col1, = st.columns(1)
+#   col1, = st.columns(1)
 
-  with col1:
-    st.subheader('Send me a message.')
+#   with col1:
+#     st.subheader('Send me a message.')
 
-    st.write('''
-        📧 **Email:** yourname@email.com
+#     st.write('''
+#         📧 **Email:** yourname@email.com
 
-        🏢 **LinkedIn:** [linkedin.com/in/yourname](https://linkedin.com)
+#         🏢 **LinkedIn:** [linkedin.com/in/yourname](https://linkedin.com)
 
-        👩‍💻 **Github:** [https://github.com/avinashjairam](https://github.com)
+#         👩‍💻 **Github:** [https://github.com/avinashjairam](https://github.com)
 
-        📷 **Instagram:** [@yourhandle](https://instagram.com)
+#         📷 **Instagram:** [@yourhandle](https://instagram.com)
 
-    ''')
+#     ''')
 
-    # Fun interative element
-    st.subheader('Current Status')
+#     # Fun interative element
+#     st.subheader('Current Status')
 
-    status = st.selectbox(
-        "I'm currently:",
-        [
-            '👩‍💻 Coding',
-            '📕 Studying',
-            '☕ On a coffee break',
-            '🎮 Gaming',
-            '😴 Sleeping'
-        ]
-    )
+#     status = st.selectbox(
+#         "I'm currently:",
+#         [
+#             '👩‍💻 Coding',
+#             '📕 Studying',
+#             '☕ On a coffee break',
+#             '🎮 Gaming',
+#             '😴 Sleeping'
+#         ]
+#     )
 
 
-    st.info(f'Status: {status}')
+#     st.info(f'Status: {status}')
 
-    # Footer
-    st.write('---')
-    st.markdown(
-        f'<center>Made with 💗 using Streamlit | © {datetime.now().year} Avinash Jairam </center>',
-        unsafe_allow_html = True
-    )
+#     # Footer
+#     st.write('---')
+#     st.markdown(
+#         f'<center>Made with 💗 using Streamlit | © {datetime.now().year} Avinash Jairam </center>',
+#         unsafe_allow_html = True
+#     )
     
 
 
