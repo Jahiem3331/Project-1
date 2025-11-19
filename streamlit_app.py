@@ -89,7 +89,7 @@ elif page == '🤠 About':
       
 elif page == '💼 Projects':
     st.title ('MY Projects')
-    st.Write('Here are some project I have worked on:')
+    st.write('Here are some project I have worked on:')
 
     # Project 1
     with st.container():
