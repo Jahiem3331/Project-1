@@ -114,7 +114,6 @@ with st.container():
       st.write(' Marketing content produce on the college websites')
       st.caption('**Technologies:** Adobe,GoPro,CapCut, Instagram accoun, Tiktok,Facebook')
   
-
 elif page == '🛠 Skills':
   st.title('Technical Skills')
 
