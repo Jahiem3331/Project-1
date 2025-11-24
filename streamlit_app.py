@@ -201,14 +201,14 @@ elif page == '📩 Contact':
    )
 
 
-  st.info(f'Status: {status}')
+    st.info(f'Status: {status}')
 
-  # Footer
-  st.write('---')
-  st.markdown(
-      f'<center>Made with 💗 using Streamlit | © {datetime.now().year} Jahiem Johnson </center>',
-      unsafe_allow_html = True
-  )
+    # Footer
+    st.write('---')
+    st.markdown(
+        f'<center>Made with 💗 using Streamlit | © {datetime.now().year} Jahiem Johnson </center>',
+        unsafe_allow_html = True
+    )
     
 
 
