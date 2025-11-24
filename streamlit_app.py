@@ -137,21 +137,21 @@ elif page == '🛠 Skills':
 
       st.subheader('Tools & Technologies')
 
-     col1, col2, col3 = st.columns(3)
-     with col1:
-         st.success('Excel')
-          st.info('Word')
-         st.warning('Access')
+      col1, col2, col3 = st.columns(3)
+      with col1:
+        st.success('Excel')
+        st.info('Word')
+        st.warning('Access')
 
-#   with col2:
-#     st.success('PowerPoint')
-#     st.info('Google Docs')
-#     st.warning('ChatGPT/AI Tools')
+      with col2:
+       st.success('PowerPoint')
+       st.info('Google Docs')
+       st.warning('ChatGPT/AI Tools')
     
-#   with col3:
-#     st.success('Presentations')
-#     st.info('Writing')
-#     st.warning('Social Media')
+      with col3:
+        st.success('Presentations')
+        st.info('Writing')
+        st.warning('Social Media')
 
 elif page == '📝 Resume':
   st.title('Resume')
@@ -170,45 +170,45 @@ elif page == '📝 Resume':
 elif page == '📩 Contact':
     st.title("Let's Connect!")
 
-#   col1, = st.columns(1)
+   col1, = st.columns(1)
 
-#   with col1:
-#     st.subheader('Send me a message.')
+   with col1:
+      st.subheader('Send me a message.')
 
-#     st.write('''
-#         📧 **Email:** richkid333212@gmail.com
+      st.write('''
+         📧 **Email:** richkid333212@gmail.com
 
-#         🏢 **LinkedIn:** [linkedin.com/in/yourname](www.linkedin.com/in/jahiem-johnson-355670363)
+         🏢 **LinkedIn:** [linkedin.com/in/yourname](www.linkedin.com/in/jahiem-johnson-355670363)
 
-#         👩‍💻 **Github:** [https://github.com/avinashjairam](https://github.com/Jahiem3331/Project-1/edit/main/streamlit_app.py)
+         👩‍💻 **Github:** [https://github.com/avinashjairam](https://github.com/Jahiem3331/Project-1/edit/main/streamlit_app.py)
 
-#         📷 **Instagram:** [@yourhandle](https://www.instagram.com/_5starjah?igsh=MXRxNXVzMmxhZ3NoNQ%3D%3D&utm_source=qr)
+         📷 **Instagram:** [@yourhandle](https://www.instagram.com/_5starjah?igsh=MXRxNXVzMmxhZ3NoNQ%3D%3D&utm_source=qr)
 
-#     ''')
+     ''')
 
-#     # Fun interative element
-#     st.subheader('Current Status')
+     # Fun interative element
+    st.subheader('Current Status')
 
-#     status = st.selectbox(
-#         "I'm currently:",
-#         [
-#             ' Running Track',
-#             '📕 Making Content',
-#             '☕ Studying',
-#             '🎮 Gaming',
-#             '😴 Chilling'
-#         ]
-#     )
+    status = st.selectbox(
+        "I'm currently:",
+        [
+            'Running Track',
+            '📕 Making Content',
+            '☕ Studying',
+            '🎮 Gaming',
+            '😴 Chilling'
+        ]
+   )
 
 
-#     st.info(f'Status: {status}')
+  st.info(f'Status: {status}')
 
-#     # Footer
-#     st.write('---')
-#     st.markdown(
-#         f'<center>Made with 💗 using Streamlit | © {datetime.now().year} Jahiem Johnson </center>',
-#         unsafe_allow_html = True
-#     )
+  # Footer
+  st.write('---')
+  st.markdown(
+      f'<center>Made with 💗 using Streamlit | © {datetime.now().year} Jahiem Johnson </center>',
+      unsafe_allow_html = True
+  )
     
 
 
