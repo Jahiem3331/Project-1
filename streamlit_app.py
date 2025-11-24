@@ -67,8 +67,8 @@ elif page == '🤠 About':
   with st.expander('2025 - Present: Medgar Evers College'):
     st.write('''
                 - Major: Business
-                - Relevant Coursework:   •	Business Law, Internet & Emerging Technologies,Financial Accounting, Computer 101,
-                - Activities: Track and Field team captain for MEC Track and filed team 
+                - Relevant Coursework: Business Law, Internet & Emerging Technologies,Financial Accounting, Computer 101,
+                - Activities: Track and Field ,team captain for MEC Track and filed team 
             ''')
 
   with st.expander('2021 - 2023: W.H Maxwell High School'):
@@ -114,7 +114,7 @@ elif page == '💼 Projects':
           st.write(' Marketing content produce on the college websites')
           st.caption('**Technologies:** Adobe,GoPro,CapCut, Instagram accoun, Tiktok,Facebook')
   
-# elif page == '🛠 Skills':
+# elif page == '🛠 Skills': 
 #   st.title('Technical Skills')
 
 #   # Skills with progress bars
