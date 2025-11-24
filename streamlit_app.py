@@ -121,11 +121,11 @@ elif page == '🛠 Skills':
   st.subheader('Programming Languages')
   
   skills_data = {
-    'Python' : 85,
-    'HTML/CSS' : 70,
-    'JavaScript' : 60,
-    'SQL' : 50,
-    'Technical Writing' : 40
+    'Teamwork ' : 95,
+    'Microsoft Office Suite ' : 70,
+    'Content/Design' : 90,
+    'Marketing' : 80,
+    'Technical Writing' : 50
   }
 
   for skill, level in skills_data.items():
@@ -178,11 +178,11 @@ elif page == '📝 Resume':
 #     st.write('''
 #         📧 **Email:** richkid333212@gmail.com
 
-#         🏢 **LinkedIn:** [linkedin.com/in/yourname](https://linkedin.com)
+#         🏢 **LinkedIn:** [linkedin.com/in/yourname](www.linkedin.com/in/jahiem-johnson-355670363)
 
-#         👩‍💻 **Github:** [https://github.com/avinashjairam](https://github.com)
+#         👩‍💻 **Github:** [https://github.com/avinashjairam](https://github.com/Jahiem3331/Project-1/edit/main/streamlit_app.py)
 
-#         📷 **Instagram:** [@yourhandle](https://instagram.com)
+#         📷 **Instagram:** [@yourhandle](https://www.instagram.com/_5starjah?igsh=MXRxNXVzMmxhZ3NoNQ%3D%3D&utm_source=qr)
 
 #     ''')
 
@@ -192,11 +192,11 @@ elif page == '📝 Resume':
 #     status = st.selectbox(
 #         "I'm currently:",
 #         [
-#             '👩‍💻 Coding',
-#             '📕 Studying',
-#             '☕ On a coffee break',
+#             ' Running Track',
+#             '📕 Making Content',
+#             '☕ Studying',
 #             '🎮 Gaming',
-#             '😴 Sleeping'
+#             '😴 Chilling'
 #         ]
 #     )
 
@@ -206,7 +206,7 @@ elif page == '📝 Resume':
 #     # Footer
 #     st.write('---')
 #     st.markdown(
-#         f'<center>Made with 💗 using Streamlit | © {datetime.now().year} Avinash Jairam </center>',
+#         f'<center>Made with 💗 using Streamlit | © {datetime.now().year} Jahiem Johnson </center>',
 #         unsafe_allow_html = True
 #     )
     
