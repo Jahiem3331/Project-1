@@ -163,7 +163,7 @@ elif page == '💼 Projects':
 #   st.download_button(
 #     label ='🔻 Download Full Resume (PDF)',
 #     data = PDFbyte,
-#     file_name = 'my_resume.pdf',
+#     file_name = 'Resume.pdf',
 #     mime ='application/pdf'
 #   )
 
