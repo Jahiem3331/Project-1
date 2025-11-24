@@ -128,14 +128,14 @@ elif page == '🛠 Skills':
     'Technical Writing' : 40
   }
 
-#   for skill, level in skills_data.items():
-#     col1, col2 = st.columns([1,3])
-#     with col1:
-#       st.write(skill)
-#     with col2:
-#       st.progress(level/100)
+ for skill, level in skills_data.items():
+   col1, col2 = st.columns([1,3])
+    with col1:
+      st.write(skill)
+    with col2:
+      st.progress(level/100)
 
-#   st.subheader('Tools & Technologies')
+ st.subheader('Tools & Technologies')
 
 #   col1, col2, col3 = st.columns(3)
 #   with col1:
