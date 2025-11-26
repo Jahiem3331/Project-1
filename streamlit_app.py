@@ -79,7 +79,7 @@ elif page == '🤠 About':
             ''')
 
   st.subheader('Interests & Hobbies 🏃🏿‍♂️‍➡️')
-  interests = ['Track and firld', 'Fashion ', 'Photography', ' Trading', ' GYM',  ' Skating', 'Travel',  ' Content', 'Games']
+  interests = ['Track and field', 'Fashion ', 'Photography', ' Trading', ' GYM',  ' Skating', 'Travel',  ' Content', 'Games']
 
   # Display the interests in columns
   cols = st.columns(3)
@@ -101,7 +101,7 @@ elif page == '💼 Projects':
        with col2:
             st.subheader('🏢 office of communication')
             st.write(' Help with marketing events,Media platforms,Photograph, Media day')	
-            st.caption('**Technologies:** Adobe,GoPro,CapCut,')
+            st.caption('**Technologies:** Photograps,Adobe,GoPro,CapCut,')
             
 
     # Project 2
@@ -112,7 +112,7 @@ elif page == '💼 Projects':
         with col2:
           st.subheader('📱 Content Producer ')
           st.write(' Marketing content produce on the college websites')
-          st.caption('**Technologies:** Adobe,GoPro,CapCut, Instagram accoun, Tiktok,Facebook')
+          st.caption('**Technologies:** Adobe,Photograps,GoPro,CapCut, Instagram accoun, Tiktok,Facebook')
   
 elif page == '🛠 Skills': 
   st.title('Technical Skills')
