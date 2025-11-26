@@ -115,7 +115,7 @@ elif page == '💼 Projects':
           st.caption('**Technologies:** Adobe,Photograps,GoPro,CapCut, Instagram accoun, Tiktok,Facebook')
   
 elif page == '🛠 Skills': 
-  st.title('Technical Skills')
+  st.title(' Marketing/Technical Skills')
   
   # Skills with progress bars
   st.subheader('Programming Languages')
